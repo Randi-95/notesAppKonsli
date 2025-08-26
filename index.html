@@ -4,85 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+ <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- <p id="nama">randi permana</p>
-    
-
-    <script>
-        const orang = {}
-        orang["nama"] = "randi"
-        orang["umur"] = 17
-        console.log(orang)
-        console.table(orang)
-        console.log(orang.nama)
-
-        const paragraf = document.getElementById("nama")
-        console.info(paragraf)
-    </script> -->
-<!-- 
-    <ul id="menu">
-    <li id="first">First</li>
-    <li id="second">Second</li>
-    <li id="third">Third</li>
-</ul>
-<script>
-    const menu = document.getElementById("menu");
-    console.info(menu);
-    console.info(menu.children);
-
-
-    const second = document.getElementById("second");
-    console.info(second);
-    console.info(second.previousSibling);
-    console.info(second.nextSibling);
-    menu.removeChild(document.getElementById("third")) -->
-
-
-    <!-- <h1 id="title"></h1>
-<p id="description"></p>
-
-<>
-    const title = document.getElementById("title");
-    title.innerText = "Belajar JavaScript DOM";
-
-    const description = document.getElementById("description");
-    description.textContent = "Selamat Belajar JavaScript DOM";
-</script> -->
-
-
-<!-- <div id="content" class="content" style="width: 100%; text-align: center;">
-
-</div>
-
-<script>
-    const content = document.getElementById("content")
-    const judul = document.createElement("h1")
-    judul.textContent = "randi"
-    content.appendChild(judul)
-
-    const deskripsi = document.createElement("p")
-    deskripsi.textContent = "permana"
-    content.appendChild(deskripsi)
-</script> -->
-
-        <div class="card-notes" >
-            <div class="content-notes">
-                <input type="radio" name="" id="">
-                <h3>Ngooding Bersama</h3>
-
-                <button type="button" id="button" style="background-color: lightseagreen; border: none; border-radius: 2px; width: auto; padding: 10px 20px; font-weight: bold;">Tambah</button>
-            </div>
+    <div class="">
+            <h1 style="text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Todo List Sederhana</h1>
+        <div class="" style="display: flex; width: 100%; justify-content: center; gap: 10px;">
+            <input type="text" name="" id="inputTask" class="input" placeholder="Silahkan tulis todo" style="border: none; border-radius: 6px; padding: 2px 10px; width: 70%; height: 2.5rem;">
+            <button type="button" id="button" style="background-color: burlywood; border: none; border-radius: 2px; width: auto; padding: 10px 20px; font-weight: bold;">Tambah</button>
         </div>
+    </div>
 
-<input type="button" value="tekan saya" id="tekanSaya">
+    <div class="container-card" id="container-card">
+        
+    </div>
 
-<script>
-    const button = document.getElementById("tekanSaya")
-    button.addEventListener("click", function(){
-        button.value = "sudah ditekan"
-        alert("anjay")
-    })
-</script>
+
+    <script src="script.js">
+
+    </script>
+
+       <script>
+      feather.replace();
+    </script>
 </body>
 </html>
